@@ -101,10 +101,11 @@ public class FindAndReplace {
         if ((file.exists())!= true)
         {
             
-            //creates the file
+            
             try 
             {
                 
+                //creates the file
                 file.createNewFile();
                 System.out.println("The file was created."); //output           
             }  
